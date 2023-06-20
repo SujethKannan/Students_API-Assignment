@@ -13,7 +13,7 @@ Router.get('/studentsdetails/:id',student_dtls.getStudentsDtlsById);
 Router.post('/studentsdetails',student_dtls.insertStudentsDtls);
 Router.put('/studentsdetails/:id',student_dtls.updateStudentsDtlsById);
 Router.delete('/studentsdetails/:id',student_dtls.deleteStudentsDtlsById);
-Router.get('/studentsdetailsView',student_dtls_view.getStudentsDtlsView);
-Router.get('/studentsdetailsView/:id',student_dtls_view.getStudentsDtlsViewById);
+Router.get('/allstudentsdetail',student_dtls_view.getStudentsDtlsView);
+Router.get('/allstudentsdetails/:id',student_dtls_view.getStudentsDtlsViewById);
 
 module.exports = Router;
